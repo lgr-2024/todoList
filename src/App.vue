@@ -1,16 +1,10 @@
 <template>
-  <TodoList msg="Welcome to Your Vue.js App"/>
+  <TodoList />
 </template>
 
-<script>
+<script setup>
 import TodoList from './components/TodoList.vue'
 
-export default {
-  name: 'App',
-  components: {
-    TodoList
-  }
-}
 </script>
 
 <style>
